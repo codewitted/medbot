@@ -1,0 +1,5 @@
+# requirements.txt
+
+# No external dependencies needed beyond the Python standard library.
+# Please use Python 3.8+ (or whichever version you have installed)
+# For my trial runs, I made sure to include the version (e.g python3 server.py) in the terminal.
