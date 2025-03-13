@@ -102,14 +102,6 @@ Open three separate terminals (or command prompts):
 - Uses a **state machine** with states:
   - `GREETING`, `SYMPTOM_CHECK`, `TRIAGE_OPTIONS`, `SCHEDULING`, `FAQ`, and a final `GOODBYE`.
 - Generates an **appropriate response** or fallback for unrecognized text.
-
-### 5.4 `client_test.py` (Optional)
-- **Automates** a list of user messages (like “Hello,” “I have a fever,” etc.) to test coverage of multiple conversation paths without manual typing.
-
-### 5.5 `autotest.py` (Optional)
-- **Starts** `server.py`, **starts** `client_bot.py`, then **runs** `client_test.py`.
-- Finally, **terminates** the background processes for a single‐script automated test.
-
 ---
 
 ## 6. Troubleshooting
